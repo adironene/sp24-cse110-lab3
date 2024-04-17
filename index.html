@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Team RYSE Meeting Minutes - 04/16/2024</title>
+    <link rel="icon" type="image/png" href="src/cat.png">
+</head>
+
+<body>
+    <header>
+        <h1>Team RYSE Meeting Minutes - 04/16/2024</h1>
+        <nav>
+            <ul>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#attendance">Attendance</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr />
+    <main>
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ul>
+                <li>Discussion on current blockers / bugs</li>
+                <li>Look at story points / jira sprint board</li>
+                <li>Talk about vision for upcoming projects</li>
+            </ul>
+        </section>
+
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <ol>
+                <div class="edm-artists">
+                    <li>Illenium</li>
+                    <li>Dabin</li>
+                    <li>SABAI</li>
+                    <li>Loote</li>
+                </div>
+                <span class="hiphop-artists">
+                    <li>a boogie wit da hoodie</li>
+                    <li>the Weekend</li>
+                    <li>Post Malone</li>
+                </span>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Meeting Notes</h2>
+            <h3>Brainstorming Session - New product</h3>
+            <h4>Date: April 16, 2024</h4>
+            <h4>Facilitator: SABAI</h4>
+            <h4>Note Taker: Illenium</h4>
+
+            <details>
+                <summary>Check-ins</summary>
+                <ol>
+                    <li>Dabin is working remotely because he is sick</li>
+                    <li>Illenium will be out for a performance next week</li>
+                    <li>Post Malone is taking his vacation leave next week</li>
+                </ol>
+                
+            </details>
+
+            <details>
+                <summary>New project options</summary>
+                <ol>
+                    <li>responsive dashboard</li>
+                    <li>new feature on client portal</li>
+                    <li>new software for partners</li>
+                </ol>
+                
+            </details>
+
+            <h4>Unfinished Business:</h4>
+            <p>
+                The team identified the <b>integration of the timer with the task list</b> as a pivotal aspect requiring
+                further attention. Despite
+                initial progress, unresolved complexities emerged during implementation, prompting the team to defer
+                finalization to subsequent meetings. Collaborative efforts to streamline the
+                integration process are
+                ongoing, with a focus on optimizing functionality and <em>enhancing user experience</em>.
+                <br><br>
+                Although this
+                approach is <i>cliché</i>, it did work. This
+                agenda item
+                remains a <strong>top priority</strong> as the team works towards delivering a seamless solution to
+                enhance productivity
+                and task management within the project framework.
+            </p>
+
+            <h4>New Business:</h4>
+            <ul>
+                <li>Discuss user interface design</li>
+                <li>Assign tasks for next sprint</li>
+            </ul>
+
+            <h4>Miscellaneous:</h4>
+            <p>No miscellaneous items to discuss.</p>
+
+            <h4>Current Jira Board:</h4>
+            <img src="src/sprint-board.png" alt="Sprint Board Diagram">
+            <hr />
+            <h4>Video Recording:</h4>
+            <video controls src="src/video.mp4" type="video/mp4">
+            </video>
+            <h4>Audio Recording:</h4>
+            <audio controls src="src/audio.m4a"></audio>
+            <hr />
+        </section>
+    </main>
+
+    <form>
+        <fieldset>
+            <legend>Team Feedback Form</legend>
+            <label for="name">Employee Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Company Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+            <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+            <label for="subscribe">showed up to the meeting</label><br><br>
+            <label>Manager Rating:</label>
+            <input type="radio" id="rating1" name="rating" value="1">
+            <label for="rating1">1</label>
+            <input type="radio" id="rating2" name="rating" value="2">
+            <label for="rating2">2</label>
+            <input type="radio" id="rating3" name="rating" value="3">
+            <label for="rating3">3</label><br><br>
+            <input type="date" id="meeting_date" name="meeting_date"><br><br>
+            <label for="working-option">Select your working option today:</label>
+            <select id="working-option" name="working-option">
+                <option value="on-site">On-site</option>
+                <option value="remote">Remote</option>
+                <option value="halfday">Half-day</option>
+                <option value="other">Other</option>
+            </select> <br><br>
+            <label for="role">Role:</label>
+            <datalist id="role">
+                <option value="PM">
+                <option value="Junior Dev">
+                <option value="Senior Dev">
+                <option value="Other">
+            </datalist>
+            <input list="role" id="roleInput" name="roleInput"><br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>© 2024 Software Engineering Group Ryse</p>
+    </footer>
+</body>
+
+</html>
