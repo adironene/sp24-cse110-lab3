@@ -4,20 +4,39 @@
     background-color: #5b402f;
 }
 
-h1, h2{
+h1,
+h2 {
     padding-top: 0.5%
 }
 
 header {
     color: rgb(20, 180, 20);
+
+    #nav-bar {
+        display: inline;
+    }
+
+
+    h1 {
+        text-align: center;
+    }
 }
 
 #agenda {
     color: lightgreen;
     margin: 2% 0% 2% 0%;
+    height: 110px;
+    width: 100%;
+
+    h2 {
+        text-decoration: underline;
+        text-align: left;
+    }
 }
 
 #attendance {
+    display: block;
+    height: 310px;
     color: #8bd886;
     border-style: solid;
     border-color: #a47c64;
@@ -58,9 +77,14 @@ header {
     * {
         background-color: #a47c64;
     }
-
-    padding-top: 1%;
-    padding-bottom: 1%;
+    max-width: 10in;
+    max-height: 20cm;
+    padding-top: 2em;
+    padding-bottom: 2vh;
     padding-right: 3%;
     padding-left: 3%;
+}
+
+#hidden {
+    display: none;
 }
