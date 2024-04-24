@@ -1,0 +1,30 @@
+/* CSS Style sheet for index.html */
+
+*{
+    background-color: #5b402f;
+}
+
+header {
+    color: rgb(20, 180, 20);
+}
+
+#agenda {
+    color: lightgreen;
+}
+
+#attendance {
+    color: #8bd886;
+}
+
+.edm-artists {
+    color: hsl(147, 50%, 47%);
+}
+
+.hiphop-artists {
+    color: color(display-p3 30% 70% 20%);
+}
+
+#meeting {
+    color: color-mix(in lch, plum 40%, pink);
+
+}
