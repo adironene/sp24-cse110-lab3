@@ -72,10 +72,9 @@ header {
     height: 110px;
     width: 100%;
 
-    h2 {
-        text-decoration: underline;
-        text-align: left;
-    }
+    text-decoration: underline;
+    text-align: left;
+
 }
 
 #attendance {
