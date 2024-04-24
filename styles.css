@@ -1,7 +1,11 @@
 /* CSS Style sheet for index.html */
 
-*{
+* {
     background-color: #5b402f;
+}
+
+h1, h2{
+    padding-top: 0.5%
 }
 
 header {
@@ -10,14 +14,25 @@ header {
 
 #agenda {
     color: lightgreen;
+    margin: 2% 0% 2% 0%;
 }
 
 #attendance {
     color: #8bd886;
+    border-style: solid;
+    border-color: #a47c64;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .edm-artists {
     color: hsl(147, 50%, 47%);
+    margin: auto;
+
 }
 
 .hiphop-artists {
@@ -26,5 +41,26 @@ header {
 
 #meeting {
     color: color-mix(in lch, plum 40%, pink);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-style: solid;
+    border-color: #a47c64;
+    border-width: 4px;
+    border-radius: 25px;
+}
 
+.img-board {
+    padding: 0% 3% 2% 3%
+}
+
+#feedback-form {
+    * {
+        background-color: #a47c64;
+    }
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
 }
