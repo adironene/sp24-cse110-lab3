@@ -50,7 +50,8 @@ header {
         justify-content: space-around;
         align-items: center;
     }
-    
+
+    text-align: center;
         text-align: center;
 }
 
@@ -127,13 +128,37 @@ header {
 }
 
 #feedback-form {
-
     max-width: 10in;
     max-height: 20cm;
     padding-top: 2em;
     padding-bottom: 2vh;
     padding-right: 3%;
     padding-left: 3%;
+}
+
+input[type="text"] {
+    border: 1px solid #fff;
+    padding: 5px;/
+}
+
+article h1 {
+    font-weight: bold;
+}
+
+ul>li {
+    list-style-type: circle;
+}
+
+h1~p {
+    padding-top: 10px;
+}
+
+h1+p {
+    padding-top: 10px;
+}
+
+.hiphop-artists.hi {
+    padding-top: 10px;
 }
 
 #hidden {
