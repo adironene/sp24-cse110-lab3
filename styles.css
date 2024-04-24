@@ -1,12 +1,38 @@
 /* CSS Style sheet for index.html */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    * {
+        font-size: 1.5em;
+    }
+}
+
+:root {
+    --primary-color: #5b402f;
+}
+
+
 * {
-    background-color: #5b402f;
+    background-color: var(--primary-color, #007bff);
 }
 
 h1,
 h2 {
-    padding-top: 0.5%
+    padding-top: 0.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
 }
 
 header {
@@ -33,6 +59,7 @@ header {
 
 #agenda {
     padding-left: 2%;
+
     #box-wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
