@@ -43,26 +43,26 @@ header {
     border-color: #a47c64;
     border-style: double;
     padding-bottom: 2em;
-/* 
+
     #nav-bar {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
-     */
-        text-align: center;
+
+    text-align: center;
 }
 
 #agenda {
     padding-left: 2%;
 
-    /* #box-wrapper {
+    #box-wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
         justify-self: auto;
-    } */
+    }
 
     color: lightgreen;
     margin: 2% 0% 2% 0%;
@@ -127,13 +127,37 @@ header {
 }
 
 #feedback-form {
-
     max-width: 10in;
     max-height: 20cm;
     padding-top: 2em;
     padding-bottom: 2vh;
     padding-right: 3%;
     padding-left: 3%;
+}
+
+input[type="text"] {
+    border: 1px solid #fff;
+    padding: 5px;/
+}
+
+article h1 {
+    font-weight: bold;
+}
+
+ul>li {
+    list-style-type: circle;
+}
+
+h1~p {
+    padding-top: 10px;
+}
+
+h1+p {
+    padding-top: 10px;
+}
+
+.hiphop-artists.hi {
+    padding-top: 10px;
 }
 
 #hidden {
