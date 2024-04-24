@@ -43,25 +43,26 @@ header {
     border-color: #a47c64;
     border-style: double;
     padding-bottom: 2em;
-
+/* 
     #nav-bar {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        /* align-items: center; */
+        align-items: center;
     }
+     */
         text-align: center;
 }
 
 #agenda {
     padding-left: 2%;
 
-    #box-wrapper {
+    /* #box-wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-        /* justify-self: auto; */
-    }
+        justify-self: auto;
+    } */
 
     color: lightgreen;
     margin: 2% 0% 2% 0%;
