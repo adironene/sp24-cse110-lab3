@@ -136,6 +136,10 @@ header {
     padding-left: 3%;
 }
 
+div:has(h1) {
+    border: 1px solid #000;
+}
+
 #hidden {
     display: none;
 }
