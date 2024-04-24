@@ -12,20 +12,20 @@
     <header>
         <h1>Team RYSE Meeting Minutes - 04/16/2024</h1>
         <nav id="nav-bar">
-            <ul>
-                <li><a href="#agenda">Agenda</a></li>
-                <li><a href="#attendance">Attendance</a></li>
-            </ul>
+            <a href="#agenda">Agenda</a>
+            <a href="#attendance">Attendance</a>
+            <a href="#meeting">meeting</a>
         </nav>
     </header>
     <hr />
     <main>
         <section id="agenda">
             <h2>Agenda</h2>
-            <ul>
-                <li>Discussion on current blockers / bugs</li>
-                <li>Look at story points / jira sprint board</li>
-                <li>Talk about vision for upcoming projects</li>
+            <div id="box-wrapper">
+                <div>discussion on current blockers / bugs</div>
+                <div>Look at story points / jira sprint board</div>
+                <div>Talk about vision for upcoming projects</div>
+            </div>
             </ul>
         </section>
 
@@ -110,12 +110,12 @@
             <video controls src="src/video.mp4">
             </video>
             <h4>Audio Recording:</h4>
-            <audio controls src="src/audio.m4a"></audio>
+            <div class="audio"><audio controls src="src/audio.m4a"></audio></div>
             <hr />
         </section>
     </main>
 
-    <form id = 'feedback-form'>
+    <form id='feedback-form'>
         <fieldset>
             <legend>Team Feedback Form</legend>
             <label for="name">Employee Name:</label>
