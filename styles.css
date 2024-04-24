@@ -104,9 +104,6 @@ header {
 }
 
 #feedback-form {
-    * {
-        background-color: #a47c64;
-    }
 
     max-width: 10in;
     max-height: 20cm;
